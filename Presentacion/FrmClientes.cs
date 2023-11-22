@@ -182,6 +182,9 @@ namespace Presentacion
             MessageBox.Show(new ServicioCliente().Insertar(cliente));
         }
 
-        
+        private void txtIdCliente_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

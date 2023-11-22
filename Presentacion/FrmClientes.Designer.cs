@@ -121,6 +121,7 @@
             this.txtIdCliente.ReadOnly = true;
             this.txtIdCliente.Size = new System.Drawing.Size(100, 20);
             this.txtIdCliente.TabIndex = 1;
+            this.txtIdCliente.TextChanged += new System.EventHandler(this.txtIdCliente_TextChanged);
             // 
             // label1
             // 

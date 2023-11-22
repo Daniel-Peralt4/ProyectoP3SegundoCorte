@@ -12,7 +12,7 @@ namespace Datos
         protected string cadenaConexion;
         public ConexionBD()
         {
-            string cadenaConexion = "Server=DESKTOP-G3DBTT3;Database=RentCar;Trusted_Connection=True; MultipleActiveResultSets= true";
+            string cadenaConexion = "Server=DANIEL\\SQLEXPRESS;Database=rentCar;Trusted_Connection=True; MultipleActiveResultSets= true";
             conexion = new SqlConnection(cadenaConexion);
         }
         public string AbrirConnexion()
